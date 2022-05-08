@@ -18,13 +18,13 @@ int fPivYLimit = 32;
 DifferentialSteering DiffSteer;
 
 
-int motor1pin1 = 12;
-int motor1pin2 = 11;
-int motor1pwm  = 5;
+int motor1pin1 = 12; //connect to pin 1 on h-bridge 1
+int motor1pin2 = 11; //connect to pin 2 on h-bridge 1
+int motor1pwm  = 5;  //connect to enable pin on h-bridge 1
 
-int motor2pin1 = 10;
-int motor2pin2 = 9;
-int motor2pwm  = 6;
+int motor2pin1 = 10; //connect to pin 1 on h-bridge 2
+int motor2pin2 = 9;  //connect to pin 2 on h-bridge 2
+int motor2pwm  = 6;  //connect to enable pin on h-bridge 2
 
 int weaponRelayPin = 13;
 
